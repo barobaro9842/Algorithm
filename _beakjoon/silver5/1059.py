@@ -9,6 +9,7 @@ L = int(input())
 nums = list(map(int, input().split()))
 target = int(input())
 
+nums.append(0)
 nums.sort()
 
 A = 0
